@@ -110,7 +110,7 @@ public class pdp_Facebook_Sign_UP_3 extends Set {
 		
 
 
-try {
+/*try {
 			WebElement iframe = driver.findElement(By.id("livechat-full-view"));
 			if(iframe.isDisplayed()) {
 				driver.switchTo().frame(iframe);   
@@ -151,6 +151,19 @@ try {
 		    driver.manage().deleteAllCookies();
 		    Thread.sleep(7000);
 		
+	}*/
+		try {
+			WebElement logout = driver.findElement(By.xpath("//a[contains(text(),'Sign Out')]"));
+			if (logout.isEnabled()) {
+				logout.click();
+				Thread.sleep(8000);
+				driver.navigate().refresh();
+				Thread.sleep(2000);
+			}
+		} catch (NoSuchElementException Ext) {
+
+		}
+
 	}
 		
 	}
