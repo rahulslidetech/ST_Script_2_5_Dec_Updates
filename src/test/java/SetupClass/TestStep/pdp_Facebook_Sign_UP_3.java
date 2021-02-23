@@ -53,7 +53,7 @@ public class pdp_Facebook_Sign_UP_3 extends Set {
 		 fb_login_btn_home_page.click();
 		 
 		Thread.sleep(3200);
-		log.info("It's opening the website URL");
+		/*log.info("It's opening the website URL");
 		
 		 WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
 		 Thread.sleep(2000);
