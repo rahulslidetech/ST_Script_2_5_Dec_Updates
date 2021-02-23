@@ -66,7 +66,7 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 			
 		 
 		Thread.sleep(4500);
-		WebElement gmail_email = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='identifierId']")));
+		/*WebElement gmail_email = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='identifierId']")));
 		Thread.sleep(2000);
 	    gmail_email.sendKeys("sakshi.pathania@slidetech.in");
 	    Thread.sleep(2000);
@@ -82,7 +82,7 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 	    //Thread.sleep(2000);
 	    Thread.sleep(2000);
 	    next_2.click();
-	    Thread.sleep(2000);
+	    Thread.sleep(2000);*/
 	    
 	}
 
