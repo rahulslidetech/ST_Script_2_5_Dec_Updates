@@ -70,19 +70,19 @@ public class pdp_Gmail_Sign_UP_5 extends Set{
 		WebElement gmail_email = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='identifierId']")));
 		Thread.sleep(2000);
 	    gmail_email.sendKeys("slidetech.qa@gmail.com");
-	    Thread.sleep(2000);
-	    WebElement next_1 = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#identifierNext > div > button > div.VfPpkd-RLmnJb")));
-	    Thread.sleep(2000);
+	    Thread.sleep(5000);
+	    WebElement next_1 = driver.findElement(By.cssSelector("#identifierNext > div > button > span"));
+	    Thread.sleep(5000);
 	    next_1.click();
 	    Thread.sleep(2000);
 	    WebElement gmail_pass = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input")));
 	    Thread.sleep(2000);
 	    gmail_pass.sendKeys("Himanshi@123");
-	    Thread.sleep(2000);
-	    WebElement next_2 = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#passwordNext > div > button > div.VfPpkd-RLmnJb")));
-	    Thread.sleep(2000);
+	    Thread.sleep(5000);
+	    
+	    WebElement next_2 = driver.findElement(By.cssSelector("#passwordNext > div > button > span"));
+	    Thread.sleep(5000);
 	    next_2.click();
-	    Thread.sleep(8000);
 		
 	}
 
