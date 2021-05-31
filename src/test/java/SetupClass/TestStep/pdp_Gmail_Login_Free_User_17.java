@@ -83,10 +83,10 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 
 	@Then("^user will be redirected to same page  xvii$")
 	public void user_will_be_redirected_to_same_page_xvii() throws Throwable {
-	    Thread.sleep(1000);
+	    Thread.sleep(7000);
 
 	  driver.get("https://www.slideteam.net/bar-graphs-and-pie-charts-sale-business-powerpoint-templates-themes.html");
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 	}
 
 	@Then("^user download the product xvii$")
