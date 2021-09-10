@@ -44,14 +44,14 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 	public void user_click_on_sign_in_with_google_button_xvii() throws Throwable {
 	   
 		 WebElement gmail_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Sign in with Google')]")));
-		    Thread.sleep(2000);
+		    Thread.sleep(4000);
 		 gmail_btn.click();
 		
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
 			try
 			{
 				WebElement another_btn=driver.findElement(By.xpath("//div[text()='Use another account']"));
-			    Thread.sleep(1000);
+			    Thread.sleep(2000);
 				another_btn.click();
 				
 				
